@@ -26,12 +26,13 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-LSIQM98</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAACAAAAAAAQZgAAAAEAACAAAACjjeQnXstDQwVzyIz5sr4/rd3o9tmFkNIM6nFNGwxX0wAAAAAOgAAAAAIAACAAAAA0S+vUeVkVdLyQBup/QwungbrFf3gTIGsOsA/2FM93oJAAAAC0FyqptTRPNBwm4he73Zj9TMK0cMyhD4yZ1BRNJalIom220hCbUPK+O1rDJc6Jtri5jm4pIMVwO4jOr6X7hTC0hIAU4LQWNgn9M1n3sceDWoD9WKIrHvE74bSP9/oOuJhcTlIOPFANw8+IDago2EJn/mzuUi/jNVa64yT11xOMmxo0grsaWthcQ5nA2fR236pAAAAApWqGVdaWCjkiQHJCiz7nH79I/VBr1CfHf59ALNzhJt36O4zbONFb3JJzu9hHl3gRZGDxsxNKqGqn2X4rc7BJkQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAACAAAAAAAQZgAAAAEAACAAAACMAyfL+psZnkHtrAr9x5taAgqYYDnLFlUZfI+bajbIxgAAAAAOgAAAAAIAACAAAACkMwfouwfeHfIJX7LkMMkYU7vjqr4adJiv5UB4lrtgcZAAAAAwD9Anc5xXWnuvd8U9anra388qXU9IrUE/Uo3Hszz/zvsOm5m34UticEnpvjMeBNDnwh9YgWS9KtMgxUtuxw2rgxNrThFxhuUh8q+iwlSYYktVy/fo9EcZ/LV+N3+gMVocamNcIyR6s/sUGVuOyC0rWV8ifgGnmIKE8nDQ/BHAFjf341cNrlXkZsuz5kgkn3VAAAAA52HvgbCnpZQrCKRUAuftmMNdIjUCxrXeBKBbmbNGYM6DnBm7cvXNNfSXVC6AOVhovpjVF4adRugn6Sbd5HkuhA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
           <SSIS:Package SSIS:Name="BulkInsert.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="SequenceContainer.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="ExecuteProcessTask.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -274,6 +275,23 @@
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{A49E20E2-8729-4B87-B2AF-A8801E9A5FE9}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="ExecuteProcessTask.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{09A5C094-3277-4219-A403-FF6E3376BBB6}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">ExecuteProcessTask</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{295FF2B2-7DD2-4414-8F74-E17CB14DEAEF}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
