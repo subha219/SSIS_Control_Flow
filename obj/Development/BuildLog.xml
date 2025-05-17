@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>ControlFlowActivity</Name>
-    <LastWriteTime>2025-05-14T14:16:50.1179402Z</LastWriteTime>
+    <LastWriteTime>2025-05-16T16:32:19.6072424Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -24,6 +24,11 @@
     <ProjectBuildItemInfo>
       <Name>ExecutePackage.dtsx</Name>
       <LastWriteTime>2025-05-14T14:16:50.1104147Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>FileSystemTask.dtsx</Name>
+      <LastWriteTime>2025-05-16T16:32:18.1567093Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

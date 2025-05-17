@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-LSIQM98</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAACAAAAAAAQZgAAAAEAACAAAAAESK+/j6d1znq0h4m8rhK4pt/hDpAK5dB6y7HbdGIhxwAAAAAOgAAAAAIAACAAAABI6REFxHtaAabPny711bsybjBt+3Hap6B3JyXwkuXaxJAAAAA1Am/CCTj11WbinFtmwgFYPuWEFXp8vRQ7uIal4561K7QFFhoE918JFHCx32WGIX2MxjJv9p9URnP9H+D6rVYpgWkO+d6OQN5CtQQaqNc6Qb+vK2vb1kLiqgpf+u9FwiHmVLp7s8jWnkZ919dU23+i+Q0o5W/1a8glhapTkfCyjYoCRDRGMMtn/L5FMdQ9RwNAAAAAF1zXePfaqnBUriXbavt4c0/ET3hdKTmI1kfSHAj/rgUuTX2eUvpXJDMtEyYWdpuhF5EacqZ1UZJOcQL1wWmOEQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAACAAAAAAAQZgAAAAEAACAAAAC6+FM2Rbn5kqq1YTDYynaFRYh20X489yfmbj/k5Em+BwAAAAAOgAAAAAIAACAAAAArRPqs/+rFejUZUcQnKD2RmkkB0lIvekFYZ/qmavfaJpAAAAB9NBKw6h4wBDQc60hGZyUuuO5ndKGWq++V3ruQBEsTqpbBb4e6McXdQPVpz2tHhzGCcKG1JS4PQiHdZijAGcLWazwWuKzyPnXj0Ksr6aaXRFJxkblZUN/5z3SHRKhWZuuz2pnd6WXJxRMBZgank9PvUUBuf3ETryZukVV4FdsSbYW+4kL3hyJW4j1iR+Vg0apAAAAAFty3hKwhbZEsqd0mal5DFRXsO7D8/vseadiv+GZuN84kdrbgjMvccMZyWBvKWE5QoRnpmAiHExdg9tY7e3mX9w==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -34,6 +34,7 @@
           <SSIS:Package SSIS:Name="SequenceContainer.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="ExecuteProcessTask.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="ExecutePackage.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="FileSystemTask.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -316,6 +317,84 @@
                 <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="FileSystemTask.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{3BA0C52F-53CD-495E-B7A2-F9FE45AD7F34}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">7</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{2DEE4758-C672-485B-8EB2-BA68B85B923A}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters>
+                <SSIS:Parameter SSIS:Name="CM.employees.txt.ConnectByProxy">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.employees.txt.ConnectionString">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">E:\StudyMaterial\SSIS\SSISDemoFiles\employees.txt</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.newemployee.txt.ConnectByProxy">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.newemployee.txt.ConnectionString">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">E:\StudyMaterial\SSIS\SSISDemoFiles\newemployee.txt</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+              </SSIS:Parameters>
             </SSIS:PackageMetaData>
           </SSIS:PackageInfo>
         </SSIS:DeploymentInfo>
