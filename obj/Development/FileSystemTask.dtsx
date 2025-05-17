@@ -11,8 +11,8 @@
   DTS:LocaleID="16393"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="5"
-  DTS:VersionGUID="{363948F1-8ED2-4986-9F31-7416EF658F73}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{417AF7D5-7506-4EC4-9847-F574FCDCD119}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -40,16 +40,15 @@
   <DTS:Variables />
   <DTS:Executables>
     <DTS:Executable
-      DTS:refId="Package\File System Task"
+      DTS:refId="Package\Copy file content to new file"
       DTS:CreationName="Microsoft.FileSystemTask"
       DTS:Description="File System Task"
-      DTS:Disabled="True"
       DTS:DTSID="{571D53F6-0910-488B-B28B-7F9C3F8E7964}"
       DTS:ExecutableType="Microsoft.FileSystemTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="File System Task"
+      DTS:ObjectName="Copy file content to new file"
       DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <FileSystemData
@@ -59,15 +58,15 @@
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\File System Task 1"
+      DTS:refId="Package\Delete File Task"
       DTS:CreationName="Microsoft.FileSystemTask"
       DTS:Description="File System Task"
       DTS:DTSID="{121C06E6-91D8-455A-8D76-2688DFEED260}"
       DTS:ExecutableType="Microsoft.FileSystemTask"
       DTS:LocaleID="-1"
-      DTS:ObjectName="File System Task 1"
+      DTS:ObjectName="Delete File Task"
       DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <FileSystemData
@@ -89,13 +88,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="163,42"
-          Id="Package\File System Task"
-          TopLeft="185,142" />
+          Size="213,42"
+          Id="Package\Copy file content to new file"
+          TopLeft="21,78" />
         <NodeLayout
-          Size="172,42"
-          Id="Package\File System Task 1"
-          TopLeft="490,136" />
+          Size="158,42"
+          Id="Package\Delete File Task"
+          TopLeft="284,78" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
