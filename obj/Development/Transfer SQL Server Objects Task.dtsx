@@ -11,8 +11,8 @@
   DTS:LocaleID="16393"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{C1CEEFEF-1BF3-4E6E-ADD8-0B61D44C274C}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{76885F79-BB57-4859-BCB4-4F497E0CD2F6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           ConnectByProxy="False">
           <PassWord
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADhXYxTygRnSeRvGt/whgyM6tnmO9KI5ZX1jjT9ynqqLwAAAAAOgAAAAAIAACAAAADSXy7DQRcvExuKFEsBSA1oQDjfisA1Nk6DVkEJ/dd4ORAAAAD9cnH7r6OUwOJEGRd61EqVQAAAAHElsUR+oogXjsv3OxSWPCIlPqISnYjQSSJ3zVczl7Lk4oqA+J0QwAsG85+Lbbx3VzJomGXYNwqvvEy9fDlMEKE</PassWord>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABrdl2VYywoAJiv6T5CjDDPmc2uwrdoqUXqgVtQIZ2xOAAAAAAOgAAAAAIAACAAAABc/9Zw9v8zcrd9+baSsqLM1bKOokZVdPjETYppnp2EOhAAAACPjLSW2Om6JLi8WkJQbWawQAAAAJSg8u3JrCf5QwdfsBgfttJswcPWBKxke3vRN6ZC3WSZRK6RPOVkLmuh7LNwyHPgq7FS0jSYiy/fSPf50Zz6OGg</PassWord>
         </SMOServerConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>

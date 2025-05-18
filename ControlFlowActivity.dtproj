@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-LSIQM98</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAACAAAAAAAQZgAAAAEAACAAAAB5sazW+aPAeZCCFfdVf52sRPAx/WfSUnjz3U4TKLU2VAAAAAAOgAAAAAIAACAAAACtgC9VITFtWYuCdczhQ/LeOG9pGqm07NUzuPpm0IF8tpAAAACG+LV/NckTO97lK7wsHEiU5ajk672zr6aqsxPVo0+ex9hbHxQIMy7mCRbpvY4bUOZovpTu8rFgfB18gf/Wnvm1OLbPlhJXyx6Md27yxjlUMk2rjTTNkLUKKIN+xBasVbRnuSuB0Kh3RPztDSCp4N330fm9HK1Uff0n5MQAKbpvmgsDs4Rrn1AVZrNpQvFWD4ZAAAAAjM9X12Ebt0HQV5n3uk2IHO/3ygP8qlvCSd2IZQC/c4DTp0aQRgmBGqI4YS1kHm4okqjwKf05moWmHLZz9MCNUw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAACAAAAAAAQZgAAAAEAACAAAAAqRHnr/wJrGG2EYHkQpeLchwETNK0q6WfiqeqKzEovpAAAAAAOgAAAAAIAACAAAACp4hK+RsTg9F0151gOPL3isqyLGZXb7KikUInedeqv6ZAAAAAqp+2UupAKjobWVnzQ79CqceDDVwN5Yz1BQndl4+L2aPV2TVh+U67Yli+TWgj2jV/Y5ndM7P/2SaQJOG1+ItEZV0YWlUgABYVMnpJ+5CfXK9W55C3ALbAT+KjxF6b4xR0Ibeh4rO8+45ybYtD+uYtrFwD0K0iMNb4+HWi9PqESPjbR7CZL55Zi2Q6cM9IZ18hAAAAAzyVKwwl3xo9jwekciK7MZMZrVllmKKcXmHoO3D2oqMnyPuYjXS9jZfaIZV6wESvyZiBrbs5DyGiqg6uLJLxD7A==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -39,6 +39,7 @@
           <SSIS:Package SSIS:Name="XMLTask.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="DataProfiling.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Transfer SQL Server Objects Task.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="ForLoopContainer.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -1166,6 +1167,23 @@
                   </SSIS:Properties>
                 </SSIS:Parameter>
               </SSIS:Parameters>
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="ForLoopContainer.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{25497CB4-CCEF-4BED-81EC-8D3CB387C58F}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">ForLoopContainer</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">4</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{FBECB2B3-1A13-49D2-A69B-22BF56506517}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
             </SSIS:PackageMetaData>
           </SSIS:PackageInfo>
         </SSIS:DeploymentInfo>
