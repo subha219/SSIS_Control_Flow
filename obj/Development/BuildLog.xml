@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>ControlFlowActivity</Name>
-    <LastWriteTime>2025-05-18T07:49:03.6287751Z</LastWriteTime>
+    <LastWriteTime>2025-05-18T09:46:21.4408587Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -44,6 +44,11 @@
     <ProjectBuildItemInfo>
       <Name>DataProfiling.dtsx</Name>
       <LastWriteTime>2025-05-18T07:49:02.2012973Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Transfer SQL Server Objects Task.dtsx</Name>
+      <LastWriteTime>2025-05-18T09:46:20.6216459Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

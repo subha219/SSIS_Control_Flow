@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="5/18/2025 1:24:23 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-LSIQM98"
+  DTS:CreatorName="DESKTOP-LSIQM98\USER"
+  DTS:DTSID="{B296CA5B-2A9B-4CD1-80BC-57E763EA6D92}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.0"
+  DTS:LocaleID="16393"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{CE611E86-12AA-413E-A7CB-8C5734080140}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-LSIQM98\SA.sa]"
+      DTS:CreationName="SMOServer"
+      DTS:DTSID="{ACE34617-AD55-4178-82F9-E8116B409426}"
+      DTS:ObjectName="DESKTOP-LSIQM98\SA.sa">
+      <DTS:ObjectData>
+        <SMOServerConnectionManager
+          ConnectionString="SqlServerName=DESKTOP-LSIQM98\SA;UseWindowsAuthentication=False;UserName=sa;"
+          ConnectByProxy="False">
+          <PassWord
+            Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAR1IOc+1SFJ/pXnQkSLRAAXeMmL81ugHriqCI3lpw3FgAAAAAOgAAAAAIAACAAAADIxcUJFlcLAxCqTH2m8NySeLS2gDUnaDOnSEaRc+MpFhAAAAAhxzcKuvsUObSQXzbFBk+yQAAAAI6PE+sXP7SGkBorAxzOaUj3BzcQoe0yHi6pJTSzmEgmGKjOLqwpOq9Pm979uC4VX+f9/kpUhJVhnbBcd2mpdzE</PassWord>
+        </SMOServerConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Transfer Database Task"
+      DTS:CreationName="Microsoft.TransferDatabaseTask"
+      DTS:Description="Transfer Database Task"
+      DTS:DTSID="{E9DE52E6-8BD6-40F3-939D-E46648B9A637}"
+      DTS:ExecutableType="Microsoft.TransferDatabaseTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Transfer Database Task"
+      DTS:TaskContact="Transfer Database Task; Microsoft Corporation; SQL Server 2022; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <TransferDatabasesTaskData
+          SrcConn="{ACE34617-AD55-4178-82F9-E8116B409426}"
+          DestConn="{ACE34617-AD55-4178-82F9-E8116B409426}"
+          SrcDBName="Demo"
+          ReattachSrcDB="True"
+          SrcDBFiles="&quot;Demo.mdf&quot;,&quot;C:\Program Files\Microsoft SQL Server\MSSQL14.SA\MSSQL\DATA&quot;,&quot;&quot;;&quot;Demo_log.ldf&quot;,&quot;C:\Program Files\Microsoft SQL Server\MSSQL14.SA\MSSQL\DATA&quot;,&quot;&quot;"
+          DestDBName="Demo1"
+          DestDBFiles="&quot;Demo.mdf&quot;,&quot;E:\StudyMaterial\SSIS\SSISDemoFiles\ssisdemofiles\Databases&quot;,&quot;&quot;;&quot;Demo_log.ldf&quot;,&quot;E:\StudyMaterial\SSIS\SSISDemoFiles\ssisdemofiles\Databases&quot;,&quot;&quot;"
+          DestOverwrite="True" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="197,42"
+          Id="Package\Transfer Database Task"
+          TopLeft="372,117" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
