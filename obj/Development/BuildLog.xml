@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>ControlFlowActivity</Name>
-    <LastWriteTime>2025-05-18T14:46:28.5941114Z</LastWriteTime>
+    <LastWriteTime>2025-05-19T15:11:16.5109616Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -53,7 +53,12 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>ForLoopContainer.dtsx</Name>
-      <LastWriteTime>2025-05-18T14:46:27.480768Z</LastWriteTime>
+      <LastWriteTime>2025-05-18T14:47:02.6800356Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Foreach Loop Container.dtsx</Name>
+      <LastWriteTime>2025-05-19T15:11:16.0037346Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
