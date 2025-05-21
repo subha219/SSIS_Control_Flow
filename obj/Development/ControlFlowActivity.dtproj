@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-LSIQM98</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAACAAAAAAAQZgAAAAEAACAAAABB4KT5asHtZrmmFP9W5E1EZ42OcuAec4f2mwzPRYG73gAAAAAOgAAAAAIAACAAAAC/U4hOV8NUQ21dqjntDolW5wTqnDBECpB3KWAtnrzGyJAAAAD1ALNG3/jklcOS8/4bpuzmaRKkty+ucJ7toC5nZBKJw43IqDnTnGh7zmfP5dR3fN5VV00OV8D+kpPkcxrETeNICn3sCdhdnB4SJBtJa+mdead05ZmzabKQvPNKJvr8rtEFw3me4QH1HorwZ1echzGrHNOR8orK/6dpqM8nIknKK0oN890J3GS2BKCTpYfXYn9AAAAACkdKpbjp0f8v1O6yLuUzFVtEvJ8OdZEAUM2Mn9MDmn16LIl2vH2MVJY95VJOZoqUbuj/Yxzhst9cn7yI9t6mzg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAACAAAAAAAQZgAAAAEAACAAAAD2R79UrIw97FGJ6Dlf9yyOsld+15+yscR5J3nLzQk5eAAAAAAOgAAAAAIAACAAAADjlduWqKTvJPjo4pI1D/8RzhmsQV3SGgopCwJByRzKrpAAAAB5yjXM/DrgzJklBD2l+LTZiiQ3wngbDskU98Yhic1c6pDf/HYOhX6SoYSrDOKDwDHT8EgSNyj+IJk/wFzMom5XMbuRV+afaVjlZQljX638nfFhvszJ7smJEvqhIHY1AgpMy2sHCgRNBJuagv9wy/GkauRwGVHm0FQJ4+EQWYg5DxvvG0Ekn+Wt66kYLReVGq5AAAAAtfHt2D+OW+MLSDQ8jrSxcjflI9Th+NqCQngPxvFf/Oeu0lRJJkcwsh1KTP/wqnxqHlwzvrZ9zNuDGJffFglTnA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -43,6 +43,7 @@
           <SSIS:Package SSIS:Name="Foreach Loop Container.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="ForEachItemEnumerator.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="ForEachVariableEnumerator.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="ForEachNodeListEnumerator.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -1568,6 +1569,54 @@
                 <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="ForEachNodeListEnumerator.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{1FAFB5CE-CBCF-45F5-86F9-CCF2F15E63E5}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{9FBE667C-F484-4FD2-896A-D1747C3DF024}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters>
+                <SSIS:Parameter SSIS:Name="CM.Databases.xml.ConnectByProxy">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.Databases.xml.ConnectionString">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">E:\StudyMaterial\SSIS\SSISDemoFiles\ssisdemofiles\Databases.xml</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+              </SSIS:Parameters>
             </SSIS:PackageMetaData>
           </SSIS:PackageInfo>
         </SSIS:DeploymentInfo>
