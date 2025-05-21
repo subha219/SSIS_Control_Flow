@@ -69,13 +69,18 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
-          <Name>SSISConfigurationDemo.dtsx</Name>
-          <FullPath>SSISConfigurationDemo.dtsx</FullPath>
+          <Name>SequenceContainer.dtsx</Name>
+          <FullPath>SequenceContainer.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="0">
+          <Name>SSISConfigurationDemoWithTable.dtsx</Name>
+          <FullPath>SSISConfigurationDemoWithTable.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
-          <Name>SequenceContainer.dtsx</Name>
-          <FullPath>SequenceContainer.dtsx</FullPath>
+          <Name>SSISConfigurationDemo.dtsx</Name>
+          <FullPath>SSISConfigurationDemo.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
