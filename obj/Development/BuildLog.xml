@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>ControlFlowActivity</Name>
-    <LastWriteTime>2025-05-21T15:22:02.7035842Z</LastWriteTime>
+    <LastWriteTime>2025-05-21T15:59:46.0989656Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -84,6 +84,11 @@
     <ProjectBuildItemInfo>
       <Name>ForEachADOEnumerator.dtsx</Name>
       <LastWriteTime>2025-05-21T15:24:32.9963014Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>SSISConfigurationDemo.dtsx</Name>
+      <LastWriteTime>2025-05-21T15:59:45.1561009Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
