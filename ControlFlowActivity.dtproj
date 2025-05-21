@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-LSIQM98</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAACAAAAAAAQZgAAAAEAACAAAADkcb0g0BBRnF5TjenzFk2pV7ySaExtFa9wQX0Ruww6SQAAAAAOgAAAAAIAACAAAABQF+3TtrzBcvLGJvdJbN7hNr5Ro/etNbpSTP3S8zKRUJAAAAAGUb37c4B6DiifUMBG7TZ/K4qtS1nLv5j3rSlnhOJpB2Ti8r6CsaoIvescd826jwD/xtAyBVv0M6Uv8IoIP+JJeRC+ho5y7ym5PV20HdcthajnjjNOwre9PHdHIYDF0QmDbJeWu48qEF+D+zzq3nfVYm5HeHl6B3DIQ22Wl7l4rtlJgRsu1cvyhrdjUTtd7nlAAAAApg3i44bcMMBghdsu9eXV6oK7RmxJuYyULvSyMGV6WFzFk8MG1lE8o+/BhXpP2GX77H5GiMIOrNxxKldYDik/tg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAACAAAAAAAQZgAAAAEAACAAAAAvULNWqTeU+3QbDI8iTmqeXdrf/f7e30IHWkAhLFHGxwAAAAAOgAAAAAIAACAAAACgXThYs1KE42HvyV0wDqITq+yw2xshQLtM6p2MeDsiDJAAAAAkFhwrxZx+qUPTS050wmalcQZKnTYfurCF9JiaJ9uBbLcOwOZKOVBnBAnoRi4rY1nvnPDxas3+klw/2MQz5WcEmV+V4KUhB2INKdJlLRrDK0hQvooPZp942BMQXribWpXTgjmEDZzqZNlumriA4djIlv2Piagz7HXjHS3GKf4KLcl5yZYng93gAoJhJg5Mz3JAAAAAAPWsdIQETnFQ+/AEMuH24FAP4V22wFCySJTim6nZX8Qa5h5+jHYJzkI4hgSE7lYNvTp6DcmnUwal26p1araOXQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -41,6 +41,7 @@
           <SSIS:Package SSIS:Name="Transfer SQL Server Objects Task.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="ForLoopContainer.dtsx" SSIS:EntryPoint="1" />
           <SSIS:Package SSIS:Name="Foreach Loop Container.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="ForEachItemEnumerator.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
@@ -1532,6 +1533,23 @@
                   </SSIS:Properties>
                 </SSIS:Parameter>
               </SSIS:Parameters>
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="ForEachItemEnumerator.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{CBFFAFD8-A43E-476E-82E5-4A685E8EC27E}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{315C974D-39D3-4D55-AE10-AE7CFBB9A523}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
             </SSIS:PackageMetaData>
           </SSIS:PackageInfo>
         </SSIS:DeploymentInfo>
