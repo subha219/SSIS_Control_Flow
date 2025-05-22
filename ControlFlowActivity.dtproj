@@ -69,18 +69,23 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
-          <Name>SequenceContainer.dtsx</Name>
-          <FullPath>SequenceContainer.dtsx</FullPath>
+          <Name>PrecedenceConstraints.dtsx</Name>
+          <FullPath>PrecedenceConstraints.dtsx</FullPath>
           <References />
         </DtsPackage>
-        <DtsPackage FormatVersion="0">
-          <Name>SSISConfigurationDemoWithTable.dtsx</Name>
-          <FullPath>SSISConfigurationDemoWithTable.dtsx</FullPath>
+        <DtsPackage FormatVersion="8">
+          <Name>SequenceContainer.dtsx</Name>
+          <FullPath>SequenceContainer.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
           <Name>SSISConfigurationDemo.dtsx</Name>
           <FullPath>SSISConfigurationDemo.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>SSISConfigurationDemoWithTable.dtsx</Name>
+          <FullPath>SSISConfigurationDemoWithTable.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
@@ -119,13 +124,7 @@
         <LinkedAzureSSISIR />
         <LinkedAzureStorage />
         <RemoteExecutionFolder />
-        <ParameterConfigurationValues>
-          <ConfigurationSetting>
-            <Id>LastModifiedTime</Id>
-            <Name>LastModifiedTime</Name>
-            <Value xsi:type="xsd:dateTime">2025-05-13T16:34:06.407135Z</Value>
-          </ConfigurationSetting>
-        </ParameterConfigurationValues>
+        <ParameterConfigurationValues />
       </Options>
     </Configuration>
   </Configurations>
