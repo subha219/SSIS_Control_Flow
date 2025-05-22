@@ -69,6 +69,11 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
+          <Name>EventHandlers.dtsx</Name>
+          <FullPath>EventHandlers.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
           <Name>PrecedenceConstraints.dtsx</Name>
           <FullPath>PrecedenceConstraints.dtsx</FullPath>
           <References />
