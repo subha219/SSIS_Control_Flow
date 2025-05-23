@@ -84,6 +84,11 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
+          <Name>HistoryCleanUptask.dtsx</Name>
+          <FullPath>HistoryCleanUptask.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
           <Name>LogProvider.dtsx</Name>
           <FullPath>LogProvider.dtsx</FullPath>
           <References />
@@ -99,8 +104,8 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
-          <Name>HistoryCleanUptask.dtsx</Name>
-          <FullPath>HistoryCleanUptask.dtsx</FullPath>
+          <Name>ShrinkDatabase.dtsx</Name>
+          <FullPath>ShrinkDatabase.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">

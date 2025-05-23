@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="5/23/2025 11:53:59 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-LSIQM98"
+  DTS:CreatorName="DESKTOP-LSIQM98\USER"
+  DTS:DTSID="{43951600-6690-43D6-B5E6-6DC7587200A2}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.0"
+  DTS:LocaleID="16393"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{7316BE3E-3D2D-44FE-9928-97B893B8EB32}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ShrinkConn]"
+      DTS:CreationName="ADO.NET:SQL"
+      DTS:DTSID="{433E71AD-CCDA-475B-854F-D2050C92837E}"
+      DTS:ObjectName="ShrinkConn">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-LSIQM98\SA;User ID=sa;Connect Timeout=30;">
+          <DTS:Password
+            DTS:Name="PWD"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAvYeIM8H9LyEk8pUmQKf5MZ4aI3kF9ttGEg6XNEdjYYwAAAAAOgAAAAAIAACAAAABAVk+76qCfRkOLkNCimPCi5YT4TOnpApZEo/zKivgMeBAAAABqfiiB6eSbS4qCOacXUTKQQAAAADVoeUmrTFtzbeF7Y2K16gaHt94AoYT/dxErbNNsTmKxppvZCnXpah6YgEdNh5ChIQlvfZl6/iNNpX4qbprdBds</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Shrink Database Task"
+      DTS:CreationName="Microsoft.DbMaintenanceShrinkTask"
+      DTS:Description="Shrink Database Task"
+      DTS:DTSID="{197CBAB6-D87C-45EB-8051-BAA703126158}"
+      DTS:ExecutableType="Microsoft.DbMaintenanceShrinkTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Shrink Database Task"
+      DTS:TaskContact="Shrink Database Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{433E71AD-CCDA-475B-854F-D2050C92837E}"
+          SQLTask:DatabaseSelectionType="3"
+          SQLTask:ServerVersion="9"
+          SQLTask:ExtendedLogging="True"
+          SQLTask:LocalConnectionForLogging=""
+          SQLTask:TaskName=""
+          SQLTask:IgnoreDatabasesInNotOnlineState="False"
+          SQLTask:DatabaseSizeLimit="50"
+          SQLTask:DatabasePercentLimit="10"
+          SQLTask:DatabaseReturnFreeSpace="True" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:SelectedDatabases
+            SQLTask:DatabaseName="AdventureWorks2017" />
+          <SQLTask:SelectedDatabases
+            SQLTask:DatabaseName="ChronicleFace" />
+          <SQLTask:SelectedDatabases
+            SQLTask:DatabaseName="PMNeoLocal" />
+          <SQLTask:SelectedDatabases
+            SQLTask:DatabaseName="TravelDB" />
+          <SQLTask:SelectedDatabases
+            SQLTask:DatabaseName="VMS_CORP" />
+          <SQLTask:SelectedDatabases
+            SQLTask:DatabaseName="IOTXS_SRK" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="187,42"
+          Id="Package\Shrink Database Task"
+          TopLeft="392,210" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
