@@ -99,8 +99,8 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
-          <Name>UpdateStatistics.dtsx</Name>
-          <FullPath>UpdateStatistics.dtsx</FullPath>
+          <Name>HistoryCleanUptask.dtsx</Name>
+          <FullPath>HistoryCleanUptask.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
@@ -131,6 +131,11 @@
         <DtsPackage FormatVersion="8">
           <Name>Transfer SQL Server Objects Task.dtsx</Name>
           <FullPath>Transfer SQL Server Objects Task.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>UpdateStatistics.dtsx</Name>
+          <FullPath>UpdateStatistics.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">

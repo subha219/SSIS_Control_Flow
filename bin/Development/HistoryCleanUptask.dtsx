@@ -1,0 +1,84 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="5/23/2025 11:47:55 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-LSIQM98"
+  DTS:CreatorName="DESKTOP-LSIQM98\USER"
+  DTS:DTSID="{186A9682-8A7D-413F-A906-3C468E617D8A}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.0"
+  DTS:LocaleID="16393"
+  DTS:ObjectName="HistoryCleanUptask"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{BF23ADFA-8343-4B73-9310-B29D35EAAE42}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[HistoryConn]"
+      DTS:CreationName="ADO.NET:SQL"
+      DTS:DTSID="{338C5B7E-A685-4392-8CC3-2E2C1B0D4FC7}"
+      DTS:ObjectName="HistoryConn">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-LSIQM98\SA;User ID=sa;Connect Timeout=30;">
+          <DTS:Password
+            DTS:Name="PWD"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADwR1ZdKVZtXlSlztHwlqsxqx5yLJUNNuXNzhbPLBOpJQAAAAAOgAAAAAIAACAAAAA5goWvdl21+zy9SMzoZcE5iCyk0E56+efCZQRM9WOc6RAAAACBjbP2QUFdHwlTSOi2RKZoQAAAADpEZHMFrXDcV3w7xXLQ49j4j1gxg0PVcOwTyhKaC1T/XKkMDbMzPXznxwYws/4QorB4lWndkecSsJpEdWvWC7Y</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\History Cleanup Task"
+      DTS:CreationName="Microsoft.DbMaintenanceHistoryCleanupTask"
+      DTS:Description="History Cleanup Task"
+      DTS:DTSID="{66CC7F27-09E7-45C9-8049-8953C14FECC2}"
+      DTS:ExecutableType="Microsoft.DbMaintenanceHistoryCleanupTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="History Cleanup Task"
+      DTS:TaskContact="History Cleanup Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{338C5B7E-A685-4392-8CC3-2E2C1B0D4FC7}"
+          SQLTask:ServerVersion="14"
+          SQLTask:ExtendedLogging="True"
+          SQLTask:LocalConnectionForLogging=""
+          SQLTask:TaskName=""
+          SQLTask:IgnoreDatabasesInNotOnlineState="False"
+          SQLTask:RemoveBackupRestoreHistory="True"
+          SQLTask:RemoveAgentHistory="True"
+          SQLTask:RemoveDbMaintHistory="True"
+          SQLTask:RemoveOlderThan="4"
+          SQLTask:TimeUnitsType="1" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="184,42"
+          Id="Package\History Cleanup Task"
+          TopLeft="410,209" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
