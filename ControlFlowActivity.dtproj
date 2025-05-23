@@ -104,8 +104,8 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
-          <Name>ReorganiseIndex.dtsx</Name>
-          <FullPath>ReorganiseIndex.dtsx</FullPath>
+          <Name>DatabaseIntegrityTask.dtsx</Name>
+          <FullPath>DatabaseIntegrityTask.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
@@ -116,6 +116,11 @@
         <DtsPackage FormatVersion="8">
           <Name>RebuildIndex.dtsx</Name>
           <FullPath>RebuildIndex.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>ReorganiseIndex.dtsx</Name>
+          <FullPath>ReorganiseIndex.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
