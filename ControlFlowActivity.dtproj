@@ -24,6 +24,11 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
+          <Name>DatabaseIntegrityTask.dtsx</Name>
+          <FullPath>DatabaseIntegrityTask.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
           <Name>DataProfiling.dtsx</Name>
           <FullPath>DataProfiling.dtsx</FullPath>
           <References />
@@ -104,8 +109,8 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
-          <Name>DatabaseIntegrityTask.dtsx</Name>
-          <FullPath>DatabaseIntegrityTask.dtsx</FullPath>
+          <Name>CheckPointTask.dtsx</Name>
+          <FullPath>CheckPointTask.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
