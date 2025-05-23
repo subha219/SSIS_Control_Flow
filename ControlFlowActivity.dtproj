@@ -79,13 +79,18 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
+          <Name>MSMQReceiverTask.dtsx</Name>
+          <FullPath>MSMQReceiverTask.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
           <Name>MSMQSenderTask.dtsx</Name>
           <FullPath>MSMQSenderTask.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
-          <Name>MSMQReceiverTask.dtsx</Name>
-          <FullPath>MSMQReceiverTask.dtsx</FullPath>
+          <Name>DataBAseBackupTask.dtsx</Name>
+          <FullPath>DataBAseBackupTask.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
