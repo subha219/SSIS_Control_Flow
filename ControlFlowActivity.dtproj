@@ -94,8 +94,8 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
-          <Name>SqlServerAgentJob.dtsx</Name>
-          <FullPath>SqlServerAgentJob.dtsx</FullPath>
+          <Name>ExecuteTSQLStatement.dtsx</Name>
+          <FullPath>ExecuteTSQLStatement.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
@@ -106,6 +106,11 @@
         <DtsPackage FormatVersion="8">
           <Name>SequenceContainer.dtsx</Name>
           <FullPath>SequenceContainer.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>SqlServerAgentJob.dtsx</Name>
+          <FullPath>SqlServerAgentJob.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
