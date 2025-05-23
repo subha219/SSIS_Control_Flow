@@ -1,0 +1,257 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="5/24/2025 12:04:23 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-LSIQM98"
+  DTS:CreatorName="DESKTOP-LSIQM98\USER"
+  DTS:DTSID="{1B5E7754-B8D8-409E-A4DC-DD5D387204D4}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.0"
+  DTS:LocaleID="16393"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{221F26A4-4168-432B-BBDA-29B246A4B977}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ReorgConn]"
+      DTS:CreationName="ADO.NET:SQL"
+      DTS:DTSID="{6A4EC893-6DBB-4BD2-8404-8D7268BC95E2}"
+      DTS:ObjectName="ReorgConn">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-LSIQM98\SA;User ID=sa;Connect Timeout=30;">
+          <DTS:Password
+            DTS:Name="PWD"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAU1v1H913BTif8hKwMPe+3k5jjdzcB3QPQVqDgKfDLbQAAAAAOgAAAAAIAACAAAACWvYcwswNBs0SDeu6hqHSFOsBKNI4013en9iM8MJ5nNBAAAADhQL7eWBEEtBSur2bvC5tVQAAAAD+pdUdYBkmLoFM4F391ibys3hti6dVnsUdQOWH9noVfP47RF9eRD71869BvQx7f4dbKb1F8nzcGY5/wvjoKPK0</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Reorganize Index Task"
+      DTS:CreationName="Microsoft.DbMaintenanceDefragmentIndexTask"
+      DTS:Description="Reorganize Index Task"
+      DTS:DTSID="{86129903-81C4-485F-BF2E-EC8B47CA90A0}"
+      DTS:ExecutableType="Microsoft.DbMaintenanceDefragmentIndexTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Reorganize Index Task"
+      DTS:TaskContact="Reorganize Index Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{6A4EC893-6DBB-4BD2-8404-8D7268BC95E2}"
+          SQLTask:DatabaseSelectionType="4"
+          SQLTask:TableSelectionType="1"
+          SQLTask:ObjectType="0"
+          SQLTask:ServerVersion="14"
+          SQLTask:ExtendedLogging="True"
+          SQLTask:LocalConnectionForLogging=""
+          SQLTask:TaskName=""
+          SQLTask:IgnoreDatabasesInNotOnlineState="False"
+          SQLTask:CompactLargeObjects="True"
+          SQLTask:CheckFragmentationPercentUsed="False"
+          SQLTask:CheckPageCountUsed="False"
+          SQLTask:CheckLastUsageInDaysUsed="False" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:SelectedDatabases
+            SQLTask:DatabaseName="AdventureWorks2017" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="dbo.AllProducts" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="dbo.AWBuildVersion" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="dbo.DatabaseLog" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="dbo.Employees" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="dbo.ErrorDemo" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="dbo.ErrorLog" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="dbo.ExportColumnDemo" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="dbo.ImportColumnDemo" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="dbo.MyUsers" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="dbo.NEWOCCUPATIONS" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="dbo.NewOccupationTable" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="dbo.NewStateProvienceDetails" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="dbo.Occupation" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="dbo.SSIS Configurations" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="dbo.TermExtractionDemo" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="dbo.TermLookUpDemo" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="HumanResources.Department" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="HumanResources.Employee" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="HumanResources.EmployeeDepartmentHistory" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="HumanResources.EmployeePayHistory" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="HumanResources.JobCandidate" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="HumanResources.Shift" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Person.Address" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Person.AddressType" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Person.BusinessEntity" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Person.BusinessEntityAddress" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Person.BusinessEntityContact" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Person.ContactType" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Person.CountryRegion" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Person.EmailAddress" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Person.Password" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Person.Person" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Person.PersonPhone" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Person.PhoneNumberType" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Person.StateProvince" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.BillOfMaterials" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.Culture" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.Document" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.Illustration" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.Location" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.Product" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.ProductCategory" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.ProductCostHistory" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.ProductDescription" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.ProductDocument" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.ProductInventory" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.ProductListPriceHistory" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.ProductModel" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.ProductModelIllustration" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.ProductModelProductDescriptionCulture" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.ProductPhoto" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.ProductProductPhoto" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.ProductReview" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.ProductSubcategory" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.ScrapReason" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.TransactionHistory" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.TransactionHistoryArchive" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.UnitMeasure" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.WorkOrder" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Production.WorkOrderRouting" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Purchasing.ProductVendor" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Purchasing.PurchaseOrderDetail" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Purchasing.PurchaseOrderHeader" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Purchasing.ShipMethod" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Purchasing.Vendor" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.CountryRegionCurrency" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.CreditCard" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.Currency" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.CurrencyRate" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.Customer" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.PersonCreditCard" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.SalesOrderDetail" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.SalesOrderHeader" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.SalesOrderHeaderSalesReason" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.SalesPerson" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.SalesPersonQuotaHistory" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.SalesReason" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.SalesTaxRate" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.SalesTerritory" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.SalesTerritoryHistory" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.ShoppingCartItem" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.SpecialOffer" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.SpecialOfferProduct" />
+          <SQLTask:SelectedTables
+            SQLTask:TableName="Sales.Store" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="192,42"
+          Id="Package\Reorganize Index Task"
+          TopLeft="464,218" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

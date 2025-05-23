@@ -104,13 +104,18 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
-          <Name>RebuildIndex.dtsx</Name>
-          <FullPath>RebuildIndex.dtsx</FullPath>
+          <Name>ReorganiseIndex.dtsx</Name>
+          <FullPath>ReorganiseIndex.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
           <Name>PrecedenceConstraints.dtsx</Name>
           <FullPath>PrecedenceConstraints.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>RebuildIndex.dtsx</Name>
+          <FullPath>RebuildIndex.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
