@@ -19,6 +19,11 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
+          <Name>DataBAseBackupTask.dtsx</Name>
+          <FullPath>DataBAseBackupTask.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
           <Name>DataProfiling.dtsx</Name>
           <FullPath>DataProfiling.dtsx</FullPath>
           <References />
@@ -89,8 +94,8 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
-          <Name>DataBAseBackupTask.dtsx</Name>
-          <FullPath>DataBAseBackupTask.dtsx</FullPath>
+          <Name>SqlServerAgentJob.dtsx</Name>
+          <FullPath>SqlServerAgentJob.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
