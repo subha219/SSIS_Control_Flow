@@ -109,6 +109,11 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
+          <Name>WMIDataReaderDemo1.dtsx</Name>
+          <FullPath>WMIDataReaderDemo1.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
           <Name>XMLTask.dtsx</Name>
           <FullPath>XMLTask.dtsx</FullPath>
           <References />
