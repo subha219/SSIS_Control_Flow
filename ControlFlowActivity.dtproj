@@ -104,8 +104,8 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
-          <Name>ShrinkDatabase.dtsx</Name>
-          <FullPath>ShrinkDatabase.dtsx</FullPath>
+          <Name>RebuildIndex.dtsx</Name>
+          <FullPath>RebuildIndex.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
@@ -116,6 +116,11 @@
         <DtsPackage FormatVersion="8">
           <Name>SequenceContainer.dtsx</Name>
           <FullPath>SequenceContainer.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>ShrinkDatabase.dtsx</Name>
+          <FullPath>ShrinkDatabase.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
