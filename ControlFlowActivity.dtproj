@@ -19,6 +19,11 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
+          <Name>CheckPointTask.dtsx</Name>
+          <FullPath>CheckPointTask.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
           <Name>DataBAseBackupTask.dtsx</Name>
           <FullPath>DataBAseBackupTask.dtsx</FullPath>
           <References />
@@ -109,8 +114,8 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
-          <Name>CheckPointTask.dtsx</Name>
-          <FullPath>CheckPointTask.dtsx</FullPath>
+          <Name>XMLSource.dtsx</Name>
+          <FullPath>XMLSource.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
