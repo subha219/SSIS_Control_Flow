@@ -114,8 +114,8 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
-          <Name>XMLSource.dtsx</Name>
-          <FullPath>XMLSource.dtsx</FullPath>
+          <Name>RecordSetDestination.dtsx</Name>
+          <FullPath>RecordSetDestination.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
@@ -176,6 +176,11 @@
         <DtsPackage FormatVersion="8">
           <Name>WMIDataReaderDemo1.dtsx</Name>
           <FullPath>WMIDataReaderDemo1.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>XMLSource.dtsx</Name>
+          <FullPath>XMLSource.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">

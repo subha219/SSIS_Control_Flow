@@ -11,8 +11,8 @@
   DTS:LocaleID="16393"
   DTS:ObjectName="XMLSource"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{1C5D554C-74AD-481E-AF02-D080C778F862}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{4768D796-D89B-4A2B-A5B0-38C0CF11782A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADZNOJOxXda9Lob2ib29C8M0YlO3F2b7tE8k4nwPe/ZOwAAAAAOgAAAAAIAACAAAACi0nAfoPvWiWoASOxhrAgwWLFAIk0zBa9/eFJn3pcjwxAAAADC1KhWKyypDZBsCPTl0IUXQAAAAMUSc4GJvmFHGmWPi7o891Y0fg4rw+Ue2LLDlin7MOZut3en3SRs6w2LNBsNSL0Y1s22cCbomqnL8Ybj96Fly64</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAYJNHqOMzZEK9r+g2d0fmigAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACrq54VLMMakBY3+T1ngJZIisqqd8VV30cIP/a/0xcXzAAAAAAOgAAAAAIAACAAAAB63cu0Gisyh7t7bVhKezbkwQS/krebDsj4CSCx4pQRKxAAAADg3VijskkUftrFloqDOiGzQAAAAMnbDEGRGvO2ao1yQo+t+1alFTtfbLVgPFKcyaHFFz3h81dCAgZ9042UKfE7BQaxsR+Dh+Ai0aKn1WmC3T/gLgo</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -687,7 +687,7 @@
     design-time-name="Package\XML TO RAW FILE DESTINATION">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="139,42"
           Id="Package\XML TO RAW FILE DESTINATION\XML Source"
@@ -727,7 +727,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
