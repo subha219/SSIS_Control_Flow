@@ -114,8 +114,8 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
-          <Name>RecordSetDestination.dtsx</Name>
-          <FullPath>RecordSetDestination.dtsx</FullPath>
+          <Name>DataReaderDestination.dtsx</Name>
+          <FullPath>DataReaderDestination.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
@@ -126,6 +126,11 @@
         <DtsPackage FormatVersion="8">
           <Name>RebuildIndex.dtsx</Name>
           <FullPath>RebuildIndex.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
+          <Name>RecordSetDestination.dtsx</Name>
+          <FullPath>RecordSetDestination.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
