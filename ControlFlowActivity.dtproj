@@ -39,6 +39,11 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
+          <Name>DataReaderDestination.dtsx</Name>
+          <FullPath>DataReaderDestination.dtsx</FullPath>
+          <References />
+        </DtsPackage>
+        <DtsPackage FormatVersion="8">
           <Name>EventHandlers.dtsx</Name>
           <FullPath>EventHandlers.dtsx</FullPath>
           <References />
@@ -114,8 +119,8 @@
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
-          <Name>DataReaderDestination.dtsx</Name>
-          <FullPath>DataReaderDestination.dtsx</FullPath>
+          <Name>IncrementalInsert.dtsx</Name>
+          <FullPath>IncrementalInsert.dtsx</FullPath>
           <References />
         </DtsPackage>
         <DtsPackage FormatVersion="8">
